@@ -3,7 +3,6 @@ from numba import njit, prange
 
 import kernels
 import cv2 as cv
-from tqdm import tqdm
 
 
 def display_image(title, image):
